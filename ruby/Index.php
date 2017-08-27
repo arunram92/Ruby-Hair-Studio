@@ -10,12 +10,12 @@
   <link rel="stylesheet" href="css/form-elements.css">
   <link rel="stylesheet" href="css/custom.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ > 
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -25,7 +25,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#myPage"><img src="img/logo.png"/></a>
     </div>
@@ -35,7 +35,7 @@
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#gallery">GALLERY</a></li>
         <li><a href="#testimonials">TESTIMONIALS</a></li>
-		<li><a href="#contact">CONTACT</a></li>
+		    <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
@@ -46,17 +46,17 @@
     <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
-		<li><img src="data1/images/1.jpg" alt="Welcome to Ruby Hair Studio's Website " title="Welcome to Ruby Hair Studio's Website" id="wows1_0"/></li>
-		<li><a href="#"><img src="data1/images/3.jpg" alt="jquery slider" title="What you wear begins with your hair and face." id="wows1_1"/></a></li>
-		<li><img src="data1/images/8.jpg" alt="We are Ottawa's one of the premier salons" title="We are Ottawa's one of the premier salons." id="wows1_2"/></li>
+		<li><img src="data1/images/1.jpg" alt="Welcome to Ruby Hair Studio " title="What you wear begins with your hair and face" id="wows1_0"/></li>
+		<li><a href="#"><img src="data1/images/3.jpg" alt="jquery slider" title="Let your hair do the talking"> id="wows1_1"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="We are Ottawa's one of the premier salons" title="Life is short. Make each flip fabulous." id="wows1_2"/></li>
 	</ul></div>
 	<div class="ws_bullets"><div>
-		<a href="#" title="Welcome to Ruby Hair Studio's Website"><span><img src="data1/tooltips/1.jpg" alt="Welcome to Ruby Hair Studio's Website"/>1</span></a>
-		<a href="#" title="What you wear begins with your hair and face."><span><img src="data1/tooltips/3.jpg" alt="What you wear begins with your hair and face."/>2</span></a>
-		<a href="#" title="We are Ottawa's one of the premier salons"><span><img src="data1/tooltips/8.jpg" alt="We are Ottawa's one of the premier salons"/>3</span></a>
+		<a href="#" title="What you wear begins with your hair and face"><span><img src="data1/tooltips/1.jpg" alt= "What you wear begins with your hair and face"/>1</span></a>
+		<a href="#" title="Let your hair do the talking"><span><img src="data1/tooltips/3.jpg" alt="Let your hair do the talking">/>2</span></a>
+		<a href="#" title="Life is short. Make each flip fabulous."><span><img src="data1/tooltips/8.jpg" alt="Life is short. Make each flip fabulous."/>3</span></a>
 	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
 <div class="ws_shadow"></div>
-</div>	
+</div>
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
@@ -67,7 +67,7 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-6">
-<br/>  
+<br/>
 
     <!--  <h2> Welcome to Ruby Hair studio </h2>
 	what you wear begins with your hair and face  -->
@@ -75,20 +75,18 @@
 						<h3>About</h3>
 						<br/>
 						<p>
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content. 
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
+							Welcome to Ruby Hair Studio. We are Ottawa's one of the premier salons and we have been serving the community for 16 years! Our friendly, experienced and talented hair stylists will make sure to give you the best look.
+              We are located at an easily accessible location in Ottawa's west at Carling Avenue. We offer free parking.
 						</p>
 						<br/>
-						<a href="#" class="readmore"> Make An Appointment </a>
-	
+						<a href="#" class="readmore"> Make An Appointment - Please call us at (613) 820-0700</a>
+
 						<div class="clearfix"></div>
-	
-    
+
+
     </div>
     <div class="col-sm-6">
-<br/>  
+<br/>
 
 	<img src="img/contacticon.ico" class="imageicon">
 						<h3>Contact</h3>
@@ -98,7 +96,7 @@
 						<img class="timeicon" src="img/email.png" height="30" width="30"/>
 						<span class="time_content"><a class="time_content" href="mailto:m.fayad@sjsu.edu"> sample@ruby.com </a></span>
 						<br/>
-						<br/> 
+						<br/>
 						<img class="timeicon" src="img/mobile.png" height="30" width="30"/>
 						<span class="time_content"><a href="tel:4089247364">  (123) 4567890 </a></span>
 						<br/>
@@ -107,7 +105,7 @@
 						<span class="venue_content"> Ottawa </span>
 						</b>
 						</p>
-						
+
   <!--    <img class="img-responsive" src="img/stark.png"/> -->
     </div>
   </div>
@@ -125,7 +123,7 @@
 	  <br/>
 	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
 	      </div>
-	
+
 	<div class="col-sm-3 service service2">
 	  <br/>
       <img src="img/shaving.png"  height="100" width="100"/>
@@ -133,7 +131,7 @@
 	  <br/>
 	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
     </div>
-	
+
 	<div class="col-sm-3 service service3">
 	  <br/>
       <img src="img/shave.png"  height="100" width="100"/>
@@ -141,7 +139,7 @@
 	  <br/>
 	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
     </div>
-	
+
 	<div class="col-sm-3 service service4">
 	  <br/>
       <img src="img/style.png"  height="100" width="100"/>
@@ -158,12 +156,12 @@
 <div id="gallery" class="container-fluid text-center">
   <h2>GALLERY</h2>
   COMING SOON...
-  
+
 </div>
 
 <!-- Container (testimonials Section) -->
 <div id="testimonials" class="container-fluid text-center bg-grey">
-  
+
   <h2>Testimonials</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
@@ -238,9 +236,9 @@
        </div>
 	   <div class="row">
 			<button class="readmore" type="submit">Send an inquiry</button>
-			
+
        </div>
-	  
+
 	</div>
  </div>
 </div>
@@ -278,13 +276,13 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
     } // End if
   });
-  
+
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
