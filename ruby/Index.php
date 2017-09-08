@@ -33,8 +33,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home">HOME</a></li>
         <li><a href="#services">SERVICES</a></li>
-        <li><a href="#gallery">GALLERY</a></li>
-        <li><a href="#testimonials">TESTIMONIALS</a></li>
+    <!--    <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#testimonials">TESTIMONIALS</a></li> -->
 		<li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -46,15 +46,11 @@
     <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
-		<li><img src="data1/images/1.jpg" alt="Welcome to Ruby Hair Studio's Website " title="Welcome to Ruby Hair Studio's Website" id="wows1_0"/></li>
-		<li><a href="#"><img src="data1/images/3.jpg" alt="jquery slider" title="What you wear begins with your hair and face." id="wows1_1"/></a></li>
-		<li><img src="data1/images/8.jpg" alt="We are Ottawa's one of the premier salons" title="We are Ottawa's one of the premier salons." id="wows1_2"/></li>
+		<li><img src="data1/images/1.jpg" alt="Welcome to Ruby Hair Studio" title="Welcome to Ruby Hair Studio" id="wows1_0"/></li>
+		<li><a href="#"><img src="data1/images/3.jpg" alt="jquery slider" title="Coloring, Highlighting, Perming, Haircuts and styling for the whole family" id="wows1_1"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="We are Ottawa's one of the premier salons" title="We provide private rooms for hijab women" id="wows1_2"/></li>
 	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Welcome to Ruby Hair Studio's Website"><span><img src="data1/tooltips/1.jpg" alt="Welcome to Ruby Hair Studio's Website"/>1</span></a>
-		<a href="#" title="What you wear begins with your hair and face."><span><img src="data1/tooltips/3.jpg" alt="What you wear begins with your hair and face."/>2</span></a>
-		<a href="#" title="We are Ottawa's one of the premier salons"><span><img src="data1/tooltips/8.jpg" alt="We are Ottawa's one of the premier salons"/>3</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"></div>
+<div class="ws_script" style="position:absolute;left:-99%"></div>
 <div class="ws_shadow"></div>
 </div>	
 <script type="text/javascript" src="engine1/wowslider.js"></script>
@@ -73,14 +69,13 @@
 	what you wear begins with your hair and face  -->
 						<img src="img/about.png" class="imageicon">
 						<h3>About</h3>
-						<br/>
 						<p>
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content. 
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
-							Welcome to Ruby Hair Studio's Website. What you wear begins with your hair and face. We are Ottawa's premier hair salon. This is sample content.
-						</p>
+							Welcome to Ruby Hair Studio. What you wear begins with your hair and face. We are one of Ottawa's premier salons.
+							We are serving the community for 16 years. Our special services include Coloring, Highlighting, Perming, Haircuts and styling for the whole family, Private room for Hijab women.
+
+							</p>
 						<br/>
+						
 						<a href="#" class="readmore"> Make An Appointment </a>
 	
 						<div class="clearfix"></div>
@@ -96,15 +91,21 @@
 						<p class="contactdetails">
 						<b>
 						<img class="timeicon" src="img/email.png" height="30" width="30"/>
-						<span class="time_content"><a class="time_content" href="mailto:m.fayad@sjsu.edu"> sample@ruby.com </a></span>
+						<span class="time_content"><a class="time_content" href="mailto:m.fayad@sjsu.edu"> info@rubyhairstudio.com </a></span>
 						<br/>
 						<br/> 
 						<img class="timeicon" src="img/mobile.png" height="30" width="30"/>
-						<span class="time_content"><a href="tel:4089247364">  (123) 4567890 </a></span>
+						<span class="time_content"><a href="tel:6138200700">  +1 613-820-0700 </a></span>
 						<br/>
 						<br/>
 						<img class="timeicon" src="img/venue.png" height="30" width="30"/>
-						<span class="venue_content"> Ottawa </span>
+						<span class="time_content"><a href="https://www.google.com/maps/place/Ruby+Hair+Studio+Unisex/@45.3560431,-75.8019196,15z/data=!4m5!3m4!1s0x0:0x1d320b32d9f0660d!8m2!3d45.3560431!4d-75.8019196" target="_blank">2936 Carling Av, Ottawa</a></span>
+						<br/>
+						<br/> 
+						<img class="timeicon" src="img/clock-icon-red.png" height="30" width="30"/>
+						<span class="time_content">  Mon - Sat : 10AM - 7PM </span>
+						<br/>
+						<span class="time_content openhours">  Sun : 10AM - 6PM </span>
 						</b>
 						</p>
 						
@@ -123,57 +124,57 @@
       <img src="img/haircutting.png"  height="100" width="100"/>
 	  <h3> Hair Cutting </h3>
 	  <br/>
-	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
+	  <p> Hair cutting and styling for whole family </p>
 	      </div>
 	
 	<div class="col-sm-3 service service2">
 	  <br/>
-      <img src="img/shaving.png"  height="100" width="100"/>
-	  <h3> Shaving </h3>
+      <img src="img/color.png"  height="100" width="100"/>
+	  <h3> Coloring and Highlighting </h3>
 	  <br/>
-	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
+	  <p> Get the hair of your dreams </p>
     </div>
 	
 	<div class="col-sm-3 service service3">
 	  <br/>
-      <img src="img/shave.png"  height="100" width="100"/>
-	  <h3> Trimming </h3>
+      <img src="img/perm.png"  height="100" width="100"/>
+	  <h3> Perming </h3>
 	  <br/>
-	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
+	  <p>Retain the health of your hair while getting perm</p>
     </div>
 	
 	<div class="col-sm-3 service service4">
 	  <br/>
-      <img src="img/style.png"  height="100" width="100"/>
-	  <h3> Styling </h3>
+      <img src="img/hijab.png"  height="100" width="100"/>
+	  <h3> Privacy </h3>
 	  <br/>
-	  <p> Lorem ipsum dolor sit amet, te duo labitur dolores. </p>
+	  <p> Private room for Hijab women </p>
     </div>
    <a href="#" class="readmore"> Make An Appointment </a>
    <br/>
 </div>
 
 
-<!-- Container (Gallery Section) -->
+<!-- Container (Gallery Section) 
 <div id="gallery" class="container-fluid text-center">
   <h2>GALLERY</h2>
   COMING SOON...
   
-</div>
+</div> -->
 
-<!-- Container (testimonials Section) -->
+<!-- Container (testimonials Section) 
 <div id="testimonials" class="container-fluid text-center bg-grey">
   
   <h2>Testimonials</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
+    <!-- Indicators 
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+    </ol> -->
 
-    <!-- Wrapper for slides -->
+    <!-- Wrapper for slides 
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
@@ -186,7 +187,7 @@
       </div>
     </div>
 
-    <!-- Left and right controls -->
+    <!-- Left and right controls 
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -198,7 +199,7 @@
   </div>
 </div>
 
-
+-->
 <div id="contact" class="container-fluid text-center">
   <h2 class="text-center">CONTACT</h2>
    <div class="row">

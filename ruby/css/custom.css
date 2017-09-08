@@ -327,7 +327,7 @@ p.contactdetails {
 }
 
 .service {
-    height: auto;
+    height: 275px;
     background-color: black;
 	border: 1px solid #191919;
 	margin-bottom: 50px;
@@ -339,17 +339,17 @@ p.contactdetails {
 }
 
 .service2:hover {
-    background-image: url("../img/service2.jpg");
+    background-image: url("../img/haircoloring.jpg");
 	    background-size: cover;
 }
 
 .service3:hover {
-    background-image: url("../img/service3.jpg");
+    background-image: url("../img/hairperming.jpg");
 	    background-size: cover;
 }
 
 .service4:hover {
-    background-image: url("../img/service4.jpg");
+    background-image: url("../img/hijab.jfif");
 	    background-size: cover;
 }
 
@@ -381,4 +381,12 @@ input[type="text"], input[type="email"],textarea#comments {
 textarea#comments
 {
 	height : 150px;
+}
+
+.openhours {
+    margin-left: 43px;
+}
+
+.ws_controls {
+    display: none;
 }
